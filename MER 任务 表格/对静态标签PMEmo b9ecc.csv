@@ -1,0 +1,42 @@
+﻿模型,复现人,超参数,结果,备注
+VGG,"Peilin Li, 毅威 丁","""BATCH_SIZE"": 16,
+""LEARNING_RATE"": 1E-6,
+""EPOCH_NUM"": 100,","RMSE（A/V）=0.2451/0.2673
+","对随机抽取的20s频谱使用整首歌的标签进行预测,划分：train_percent=0.8, valid_percent=0.1，
+test_percent=0.1"
+SingleLayer-LSTM,毅威 丁,hidden_size = 128,RMSE (A/V) = 0.2882/0.2954,
+MultiLayer-LSTM,毅威 丁,"hidden_size = (512, 128)",RMSE (A/V) = 0.2864/0.2851,
+SingleLayer-Attn,毅威 丁,hidden_size = 128,RMSE (A/V) = 0.2938/0.2901,
+MultiLayer-Attn,毅威 丁,"hidden_size = (256, 64)",RMSE (A/V) = 0.2861/0.2821,
+MLP-mix,Peilin Li,"""BATCH_SIZE"": 64,
+""EMBEDDING_DIM"": 256,
+""CHANNEL_DIM"": 256,
+""TOKEN_DIM"": 128,
+""PATCH_SIZE"": 16,
+""RESNET_DEPTH"": 48,
+""LEARNING_RATE"": 1E-5,
+""EPOCH_NUM"": 100,//
+""BATCH_SIZE"": 64,
+""EMBEDDING_DIM"": 128,
+""CHANNEL_DIM"": 128,
+""TOKEN_DIM"": 128,
+""PATCH_SIZE"": 16,
+""RESNET_DEPTH"": 64,
+""LEARNING_RATE"": 1E-5,
+""EPOCH_NUM"": 100,","RMSE(A/V) = 
+0.2452/0.3002","对随机抽取的20s频谱使用整首歌的标签进行预测,划分：train_percent=0.8, valid_percent=0.1，
+test_percent=0.1"
+"ViT-'vit_base_patch16_224_in21k', ",Peilin Li,"""LEARNING_RATE"": 1e-4,
+""EPOCH_NUM"": 50,
+""BATCH_SIZE"": 32,
+""DIM"": 21843,
+""MLP_DIM"": 256,
+""DROP_OUT"": 0.4, copy//
+""LEARNING_RATE"": 5e-4,
+""EPOCH_NUM"": 50,
+""BATCH_SIZE"": 32,
+""DIM"": 21843,
+""MLP_DIM"": 256,
+""DROP_OUT"": 0.4, no copy","RMSE(A/V) = 0.2482/0.2801
+",
+ViT-'vit_base_patch16_384',,,,

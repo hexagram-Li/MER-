@@ -1,0 +1,34 @@
+﻿Name,Tags,URL,来源,状态,时间,data,备注
+Language-Sensitive Music Emotion Recognition Models: are We Really There Yet?,"多任务, 对比学习",https://ieeexplore.ieee.org/document/9413721,ICASSP,看过,2021,Frame的speech预训练，static的应用标签，emtion部分说的很少重点放在了自监督预训练,
+"THE MULTIPLE VOICES OF MUSICAL EMOTIONS: SOURCE
+SEPARATION FOR IMPROVING MUSIC EMOTION RECOGNITION
+MODELS AND THEIR INTERPRETABILITY","MLP, 音源分离",http://archives.ismir.net/ismir2020/paper/000308.pdf,ISMIR,没看过,2020,static,"popular music
+with emotional annotations (PMEmo) dataset"
+"EXPLAINING PERCEIVED EMOTION PREDICTIONS IN MUSIC:
+AN ATTENTIVE APPROACH","LSTM, 注意力机制",http://archives.ismir.net/ismir2020/paper/000354.pdf,ISMIR,没看过,2020,Frame,"arousal-valence continuous
+annotations for each song (second 15-45), with 2Hz sam-
+pling frequency are available in the dataset. We define each
+non-overlapping 500ms of the clips as one music frame"
+Towards Explainable Music Emotion Recognition: The Route via Mid-level Features,VGG,http://archives.ismir.net/ismir2019/paper/000027.pdf,ISMIR,看过,2019,static,"Aljanaki & Soleymani’s Mid-level Percep-
+tual Features dataset"
+"Comparison and Analysis of Deep Audio Embeddings for
+Music Emotion Recognition","Look Listen and Learn network (L3-Net), VGG",http://ceur-ws.org/Vol-2897/AffconAAAI-21_paper2.pdf,AAAI,没看过,2021,static,"4Q Audio Emotion Dataset:
+Bi-modal Emotion Dataset"
+"Attentive RNNs for Continuous-time
+Emotion Prediction in Music Clips","LSTM, 注意力机制",http://ceur-ws.org/Vol-2614/AffCon20_session1_attentive.pdf,affcon@AAAI,没看过,2020,static,"In the present work, we use the 1000 Songs for Emotional Analysis of Mu-
+sic dataset [13] for all experiments. Of the thousand clips,the dataset provides
+arousal and valence annotations for only 744 clips, which are used as ground
+truth values."
+"PEIA: Personality and Emotion Integrated Attentive
+Model for Music Recommendation on Social Media Platforms",注意力机制,https://aaai.org/ojs/index.php/AAAI/article/view/5352,AAAi,没看过,2020,这个更像标数据集的，但是模型很有意思做多模态可能用到还是放上来了,"We focus on the active users and the popular music tracks
+on WeChat. During 2017.10 to 2018.4, we crawl 18,508,966
+user-music-interactions, involving 171,254 different users
+and 35,993 different music tracks,"
+"MUSIC MOOD DETECTION BASED ON AUDIO AND LYRICS WITH
+DEEP NEURAL NET","LSTM, 多模态",https://arxiv.org/abs/1809.07276,ISMIR,没看过,2018,static（自己标的）,"The MSD [2] is a large dataset commonly used for MIR
+tasks. The tracks are associated with tags from LastFM 2 ,
+some of which are related to mood."
+A Genre-Affect Relationship Network with Task-Specific Uncertainty Weighting foR Recognizing Induced Emotion in Music,Genre-Affect Relationship Network (GARN),https://ieeexplore.ieee.org/document/8486570/metrics#metrics,ICME,没看过,2018,static,Emotify：9个维度的标签 不是AV
+On-line continuous-time music mood regression with deep recurrent neural networks,"LSTM, RNN",https://ieeexplore.ieee.org/document/6854637,ICASSP,,2014,frame（自己标的）,"Time continuous observer annotations are averaged and ‘re-sampled’ at 1 Hz such that the ‘ground truth’ for every segment of 1 s length corresponds to the average of all available annotations within that segment. After pre-selection, 100 qualified annotators participated in the AMT experiment. Annotation was done by mouse movements, separately for arousal and valence."
+"Novel Audio Features for Music
+Emotion Recognition",SVM,https://doi.org/10.1109/TAFFC.2018.2820691,TAFFC,,2020,static（自己标的）,"The AllMusic API2 served as the source of musical information, providing metadata such as artist, title, genre and emotion information, as well as 30-second audio clips for most songs."

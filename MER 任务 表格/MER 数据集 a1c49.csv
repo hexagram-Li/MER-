@@ -1,0 +1,18 @@
+﻿Name,URL,Tags,Column
+PMEmo流行音乐情感数据集,http://www.next.zju.edu.cn/research/pmemo/,,
+all music,https://www.allmusic.com/,,
+The AMG1608 Dataset,https://amg1608.blogspot.com/,valence & arousal,
+DEAM dataset,https://cvml.unige.ch/databases/DEAM/,valence & arousal,
+DEAP dataset,http://www.eecs.qmul.ac.uk/mmv/datasets/deap/readme.html,"valence & arousal, video",
+GTZAN,https://www.tensorflow.org/datasets/catalog/gtzan,无监督,
+Bi-modal,,,有歌词
+Audio-dataset,,valence & arousal,有歌词，和上一个共享数据集（不同标签）133首
+Emusic,,valence & arousal,有排名·曲名 141首
+Soundtrack,,,8个标签 361+110
+4Q audio emotion,,4Q,900首
+Emo-Soundscapes,,valence & arousal,1213 很多杂七杂八的其他feature（类型 排名）
+midleavel,,,奇怪的指标mode
+CAL500,,,非常多标签和分类
+emTagMs,,,分了很多奇怪的类（文件夹）
+MVDB,,,6标签分类
+,,,
